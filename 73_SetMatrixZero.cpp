@@ -1,5 +1,8 @@
 class Solution {
 public:
+    
+    //Time Complexity: O(n+m)
+    //Space Complexity: O(n+m)
     void setZeroes(vector<vector<int>>& matrix) {
         bool isColZero = false;
         bool isRowZero = false;
